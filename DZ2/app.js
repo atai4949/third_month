@@ -17,7 +17,7 @@ function move() {
     block.style.top = `${yPos}px`; 
     setTimeout(() => { 
       move(); 
-    }, 80); 
+    }, 160); 
   }  else if (xPos > 0 && yPos >= 340) { 
     xPos -= 16; 
     block.style.left = `${xPos}px`; 
@@ -29,7 +29,7 @@ function move() {
     block.style.top = `${yPos}px`; 
     setTimeout(() => { 
       move(); 
-    }, 80) 
+    },160) 
   }  
 } 
 move() 
